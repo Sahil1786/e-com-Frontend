@@ -49,7 +49,7 @@ export default defineConfig(({ mode }) => {
   const localEnv = loadEnv(mode, frontendRoot, "VITE_");
   
   // Updated to point to your Render backend
-  const backendOrigin = localEnv.VITE_BACKEND_ORIGIN || "https://e-com-rvs2.onrender.com";
+  const backendOrigin = "https://e-com-rvs2.onrender.com";
 
   return {
     plugins: [
